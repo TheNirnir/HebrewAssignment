@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ניר בן-ארי</title>
-	<link rel="icon" type="image/gif/png" href="images/iconV4.png">
+	<!-- <link rel="icon" type="image/gif/png" href="images/iconV4.png"> -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap" rel="stylesheet">
@@ -13,15 +13,6 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
 	<script src="js/ajax-utils2.js"></script>
-
-	<!-- data -->
-	<script src="data/Home-data.js"></script>
-	<script src="data/Interns-data.js"></script>
-	<script src="data/Supervisions-data.js"></script>
-	<script src="data/Publications-data.js"></script>
-	<script src="data/News-data.js"></script>
-	<!-- end of data -->
-
 	<script src="js/script.js"></script>
 </head>
 <body>
@@ -32,26 +23,30 @@
 				<div id="header-row" class="row">
 					<!-- <h1>ניר בן&#8209;ארי &ndash; קורות חיים</h1> -->
 					<h1>קורות חיים</h1>
-					<ul id="menu-bar">
-						<li id="Publications-option" class="options" onclick="pageTransformation('Publications')"><a href="#">Publications</a></li>
-						<li id="CV-option" class="options" onclick="pageTransformation('CV')"><a href="#">CV</a></li>
-						<li id="Home-option" class="page-on" onclick="pageTransformation('Home')"><a href="#">Home</a></li>
-						<li id="Home-option-place-holder"></li>
-						<li id="News-option" class="options" onclick="pageTransformation('News')"><a href="#">News</a></li>
-						<li id="Supervision-option" class="options" onclick="pageTransformation('Supervision')"><a href="#">Supervision</a></li>
-					</ul>
 				</div>
 			</div>
 		</div>
 	</nav>
 	</header>
 
-	<div id="main-content"></div>
+	<div id="main-content">
+		<div class="container">
+			<div id="first-paragraph" class="col-xs-8">לי קוראים ניר, שם שלדעתי מתאר אותי מצוין. המשמעות המילונית של "ניר" היא שדה חרוש, אך המשמעות בשבילי רחבה הרבה יותר. שדה חרוש הוא שדה שמוכן לזריעה, שדה שמחכה בקוצר רוח שישקו אותו בזרעים חדשים. במקביל לכך, אני חושב שאני אדם סקרן שתמיד שמח להעשיר את הידע שלו. דבר זה מתחבר עם החיבה שלי לאתגרים והביא להחלטות רבות ודרכים רבות שבחרתי, אשר עיצבו את האישיות שלי עד היום. </div>
+			<div id="big-nir" class="col-xs-4">ניר</div>
+			<div class="clearfix"></div>
+			<div id="second-paragraph" class="col-xs-8">לדוגמה, כבר בכיתה ב התחלתי לשחק טניס. אני רואה בטניס את הספורט המיטבי, ולדעתי המעניין ביותר כיום. אני אוהב טניס בכל דרך אפשרית, ממה שקרה בעבר, דרך צפייה במשחקים והתעדכנות בטניס היום, וכמובן, השיא הוא לשחק טניס בעצמי. במהלך השנים השתתפתי במספר תחרויות קטנות, רק בשביל האתגר ולא בשביל לנסות ולהיות שחקן מקצועי ותחרותי, ואף זכיתי בחלקן.</div>
+			<img id="tennis-racket" class="col-xs-4" src="images/tennisRacket.png"></img>
+			<div class="clearfix"></div>
+			<div id="first-paragraph" class="col-xs-8">	אתגר נוסף שלקחתי על עצמי בשנתיים האחרונות הוא התוכנית לנוער מוכשר במתמטיקה. כיום, אני בשנה השלישית (מתוך שלוש) בתוכנית ובסוף השנה אני מתכנן ומקווה לסיים את הבגרות 5 יחידות במתמטיקה. תוכנית זו דורשת השקעה רבה, ולדעתי קשה מאוד להצליח בה ללא הסקרנות והרצון לדעת וללמוד.
+			</div>
+		</div>
+
+	</div>
 
 	<footer>
 		<div class="container">
-			<div><span>&copy;</span> copyright 2020 Rami Ben&#8209;Ari all&nbsp;rights&nbsp;reserved</div>
-			<div>Created by Nir Ben&#8209;Ari</div>
+			<div><span>&copy;</span> copyright 2020 Nir Ben&#8209;Ari all&nbsp;rights&nbsp;reserved</div>
+			<!-- <div>Created by Nir Ben&#8209;Ari</div> -->
 		</div>
 	</footer>
 </body>
