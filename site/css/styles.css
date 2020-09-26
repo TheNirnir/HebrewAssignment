@@ -74,7 +74,7 @@ a:hover, a:active {
 	text-align: right;
 }
 
-#big-nir {
+.big-words {
 	font-size: 6em;
 	margin-top: -4%;
 	font-weight: bold;
@@ -100,4 +100,20 @@ footer {
 
 /****************media queries********************/
 
+@media (max-width: 768px) {
+	#first-paragraph {
+		float: none;
+		/*display: inline-block;*/
+	}
+
+	.big-words {
+		font-size: 6em;
+		margin-top: -4%;
+		font-weight: bold;
+		text-align: center;
+		float: left;
+		display: inline-block;
+	}
+
+}
 /****************end media queries********************/
