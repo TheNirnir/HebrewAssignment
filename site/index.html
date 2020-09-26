@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charest="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rami Ben-Ari</title>
+	<link rel="icon" type="image/gif/png" href="images/iconV4.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap" rel="stylesheet">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
+	<script src="js/ajax-utils2.js"></script>
+
+	<!-- data -->
+	<script src="data/Home-data.js"></script>
+	<script src="data/Interns-data.js"></script>
+	<script src="data/Supervisions-data.js"></script>
+	<script src="data/Publications-data.js"></script>
+	<script src="data/News-data.js"></script>
+	<!-- end of data -->
+
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+		<div id="header-container" class="container">
+			<div id="navbar-header-container" class="navbar-header">
+				<div id="header-row" class="row">
+					<h1>Rami Ben&#8209;Ari</h1>
+					<ul id="menu-bar">
+						<li id="Publications-option" class="options" onclick="pageTransformation('Publications')"><a href="#">Publications</a></li>
+						<li id="CV-option" class="options" onclick="pageTransformation('CV')"><a href="#">CV</a></li>
+						<li id="Home-option" class="page-on" onclick="pageTransformation('Home')"><a href="#">Home</a></li>
+						<li id="Home-option-place-holder"></li>
+						<li id="News-option" class="options" onclick="pageTransformation('News')"><a href="#">News</a></li>
+						<li id="Supervision-option" class="options" onclick="pageTransformation('Supervision')"><a href="#">Supervision</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	</header>
+
+	<div id="main-content"></div>
+
+	<footer>
+		<div class="container">
+			<div><span>&copy;</span> copyright 2020 Rami Ben&#8209;Ari all&nbsp;rights&nbsp;reserved</div>
+			<div>Created by Nir Ben&#8209;Ari</div>
+		</div>
+	</footer>
+</body>
+</html>
